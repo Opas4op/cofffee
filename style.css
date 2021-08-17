@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: lato, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .87)
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+}
+
+header {
+    height: 100%;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    z-index: 3;
+    overflow: hidden;
+    position: relative;
+}
+
+.header-container {
+    max-width: 1440px;
+    margin: 12px auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #422918;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+}
+
+.left-nav nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.left-nav nav ul li {
+    text-transform: uppercase;
+    padding-right: 128px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+
+.left-nav nav ul li:hover {
+    color: #64bc51;
+}
+
+.leftie {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    height: 120px;
+    width: 120x;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.right-nav nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.right-nav nav ul li {
+    text-transform: uppercase;
+    padding-left: 128px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+
+
+.right-nav nav ul li:hover {
+    color: #64bc51;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 160px;
+}
+
+.rightie {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.find-store {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.sign-in,
+.join-now {
+    display: inline-block;
+    padding: 0px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    border-width: 1px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.sign-in {
+    margin-right: 16px;
+}
+
+.sign-in:hover {
+    background-color: rgba(0, 0, 0, .06);
+    transition: all .2s ease;
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.join-now:hover {
+    background-color: rgba(0, 0, 0, .7);
+    border-color: rgba(0, 0, 0, .7);
+}
+
+.announcements {
+    background-color: #64bc51;
+    display: flex;
+    justify-content: center;
+}
+
+.announcements span {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    max-width: 60%;
+    text-align: center;
+    line-height: 1.75;
+    font-size: 14px;
+    font-weight: 500;
+}
